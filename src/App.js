@@ -5,11 +5,10 @@ function App() {
   return (
     <div className="App">
       <div className="freecodecamp-logo-contenedor">
-        <img
-          src={freeCodeCampLogo}
-          alt="logo"
-          className="freecodecamp-logo"
-        />
+        <img src={freeCodeCampLogo} alt="logo" className="freecodecamp-logo" />
+      </div>
+      <div className="tareas-lista-principal">
+        <h1>Mis Tareas</h1>
       </div>
     </div>
   );
